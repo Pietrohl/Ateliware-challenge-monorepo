@@ -1,0 +1,26 @@
+{
+    "folders": [
+        {
+            "path": "Ateliware-challenge-client"
+        },
+        {
+            "path": "Ateliware-challenge-server"
+        },
+        {
+            "path": "."
+        }
+    ],
+    "settings": {},
+    "launch": {
+        "version": "0.2.0",
+        "configurations": [
+            {
+                "skipFiles": [
+                    "<node_internals>/**"
+                ],
+                "program": "${file}",
+                "__workspaceFolder": "."
+            }
+        ]
+    }
+}
