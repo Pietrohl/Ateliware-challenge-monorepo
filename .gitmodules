@@ -1,6 +1,6 @@
 [submodule "Ateliware-challenge-client"]
 	path = Ateliware-challenge-client
-	url = https://github.com/Pietrohl/Ateliware-challenge-client.git
+	url = ../Ateliware-challenge-client.git
 [submodule "Ateliware-challenge-server"]
 	path = Ateliware-challenge-server
-	url = https://github.com/Pietrohl/Ateliware-challenge-server.git
+	url = ../Ateliware-challenge-server.git
