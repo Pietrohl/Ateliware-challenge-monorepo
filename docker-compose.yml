@@ -21,9 +21,10 @@ services:
     restart: always
     volumes:
       - ./Ateliware-challenge-server:/app
+      - ./Ateliware-challenge-server/dist:/app/dist
     command: npm start
-    expose:
-      - 3000
+    ports:
+      - 3000:3000
     environment:
       - PORT=3000
       - REDIS_URL=redis://redis:6379
